@@ -4,7 +4,7 @@
 # Repository-Struktur
 
 Gegenstand des Projekts
-Das Projekt behandelt eine datenbasierte Analyse im Kontext des Online-Spiels League of Legends mit folgender Fragestellung: Welche Kombination von Champion-Eigenschaften ist im derzeitigen Spielökosystem am stärksten unterrepräsentiert und könnte als Grundlage für die Entwicklung eines neuen Charakters dienen?
+Das Projekt behandelt eine datenbasierte Analyse im Kontext des Online-Spiels League of Legends mit folgender Fragestellung: Welche Kombination aus Charakterrolle und -klasse ist im aktuellen Spielökosystem am stärksten unterrepräsentiert und könnte als Grundlage für die Entwicklung eines neuen Champions dienen?
 Hierbei wird Python in einem Jupyter Notebook mit Daten aus Kaggle und METAsrc verwendet, die mithilfe von maschinellen Lernverfahren – insbesondere XGBoost – analysiert werden, um datengetriebene Handlungsempfehlungen für das Champion-Design zu gewinnen.
 
 Relevante Materialien
