@@ -11,6 +11,6 @@ Relevante Materialien
 In diesem Repository finden sich folgende Dateien:
 .gitattributes
 Die Datensätze, welche in der Analyse und Modellerstellung verwendet wurden. "League of Legends Champion Stats 12.1" ist dabei der Datensatz von MetaSrc und "200125_LoL_champion_data" die Daten von Kaggle.
-Das Notebook nennt sich "DataMiningProject-Notebook"
-Das gespeicherte Modell nennt sich "lol_pickrate_model"
-Ein Profiling Report findet sich ebenfalls als HTML-Datei im Repository namens "ydata_profiling_report"
+Das Notebook nennt sich "DataMiningProject-Notebook" und befindet sich im Ordner "Code und Output"
+Das gespeicherte Modell nennt sich "lol_pickrate_model" und befindet sich im Ordner "Code und Output"
+Ein Profiling Report findet sich ebenfalls als HTML-Datei im Repository namens "ydata_profiling_report" und befindet sich im Ordner "Code und Output"
