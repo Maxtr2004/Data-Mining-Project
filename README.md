@@ -1,16 +1,90 @@
-# Data-Mining-Project
- Modellerstellung bezüglich League of Legends - Datensätzen
+# Data Mining Projekt 
+## Unterrepräsentierte Champion-Archetypen in League of Legends
 
-# Repository-Struktur
+Autor: Max Trummer
 
-Gegenstand des Projekts
-Das Projekt behandelt eine datenbasierte Analyse im Kontext des Online-Spiels League of Legends mit folgender Fragestellung: Welche Kombination aus Charakterrolle und -klasse ist im aktuellen Spielökosystem am stärksten unterrepräsentiert und könnte als Grundlage für die Entwicklung eines neuen Champions dienen?
-Hierbei wird Python in einem Jupyter Notebook mit Daten aus Kaggle und METAsrc verwendet, die mithilfe von maschinellen Lernverfahren – insbesondere XGBoost – analysiert werden, um datengetriebene Handlungsempfehlungen für das Champion-Design zu gewinnen.
+Modul: DMI01 – Data Mining
 
-Relevante Materialien
-In diesem Repository finden sich folgende Dateien:
-.gitattributes
-Die Datensätze, welche in der Analyse und Modellerstellung verwendet wurden. "League of Legends Champion Stats 12.1" ist dabei der Datensatz von MetaSrc und "200125_LoL_champion_data" die Daten von Kaggle.
-Das Notebook nennt sich "DataMiningProject-Notebook" und befindet sich im Ordner "Code und Output"
-Das gespeicherte Modell nennt sich "lol_pickrate_model" und befindet sich im Ordner "Code und Output"
-Ein Profiling Report findet sich ebenfalls als HTML-Datei im Repository namens "ydata_profiling_report" und befindet sich im Ordner "Code und Output"
+Angabe: 26.02.2026
+
+## Überblick
+
+Ziel dieses Projekts ist die datengetriebene Identifikation unterrepräsentierter Champion-Kombinationen im aktuellen League of Legends Meta.
+
+### Forschungsfrage:
+
+Welche Kombination aus Rolle und Klasse weist bei durchschnittlichen Leistungswerten die niedrigste prognostizierte Pickrate auf und eignet sich somit als Grundlage für ein neues Champion-Design?
+
+Die Analyse folgt dem CRISP-DM-Prozess.
+
+## Methodik
+
+Datenquellen: METAsrc & League of Legends Wiki (via Kaggle)
+
+Zielvariable: Pickrate
+
+Train/Test-Split: 80/20
+
+Cross-Validation: 5-Fold
+
+Hyperparameter-Tuning: GridSearchCV
+
+## Getestete Modelle
+
+Lineare Regression (Baseline)
+
+Random Forest
+
+Neuronales Netz (MLP)
+
+XGBoost (bestes Modell)
+
+### Modellperformance (XGBoost):
+
+R² ≈ 0,964
+
+Niedrigster RMSE im Vergleich
+
+## Zentrales Ergebnis
+
+Das Modell identifiziert folgende Kombination als unterrepräsentiert:
+
+Rolle: Top-Lane
+
+Klasse: Tank
+
+Prognostizierte Pickrate bei durchschnittlichen Werten: ≈ 4 %
+
+## Projektstruktur
+
+Trummer_Max_DMI01.pdf
+
+Screencast Data Mining.pptx
+
+Code and Data/
+│
+├── Code und Output/
+│   ├── DataMiningProject-Notebook.ipynb
+│   ├── lol_pickrate_model.pkl
+│   └── ydata_profiling_report.html
+│
+└── Daten/
+    ├── 200125_LoL_champion_data.csv
+    └── League of Legends Champion Stats 12.1.csv
+Reproduzierbarkeit
+
+Python 3.10+ erforderlich.
+
+## Wesentliche Bibliotheken:
+
+pandas
+
+numpy
+
+scikit-learn
+
+xgboost
+
+seaborn
+
+ydata-profiling
