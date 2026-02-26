@@ -57,23 +57,20 @@ Prognostizierte Pickrate bei durchschnittlichen Werten: ≈ 4 %
 
 ## Projektstruktur
 
-Trummer_Max_DMI01.pdf
+    Trummer_Max_DMI01.pdf
 
-Screencast Data Mining.pptx
+    Screencast Data Mining.pptx
 
-Code and Data/
-│
-├── Code und Output/
-│   ├── DataMiningProject-Notebook.ipynb
-│   ├── lol_pickrate_model.pkl
-│   └── ydata_profiling_report.html
-│
-└── Daten/
-    ├── 200125_LoL_champion_data.csv
-    └── League of Legends Champion Stats 12.1.csv
-Reproduzierbarkeit
-
-Python 3.10+ erforderlich.
+    Code and Data/
+    │
+    ├── Code und Output/
+    │   ├── DataMiningProject-Notebook.ipynb
+    │   ├── lol_pickrate_model.pkl
+    │   └── ydata_profiling_report.html
+    │
+    └── Daten/
+        ├── 200125_LoL_champion_data.csv
+        └── League of Legends Champion Stats 12.1.csv
 
 ## Wesentliche Bibliotheken:
 
