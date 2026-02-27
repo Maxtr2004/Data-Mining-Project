@@ -61,6 +61,8 @@ Prognostizierte Pickrate bei durchschnittlichen Werten: ≈ 4 %
 
     Screencast_Data_Mining.mp4
 
+    Eigenständigkeitserklärung_TRUMMER_DataMining
+
     Code and Data/
     │
     ├── Code und Output/
