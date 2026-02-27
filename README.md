@@ -5,7 +5,7 @@ Autor: Max Trummer
 
 Modul: DMI01 – Data Mining
 
-Angabe: 26.02.2026
+Angabe: 27.02.2026
 
 ## Überblick
 
@@ -59,7 +59,7 @@ Prognostizierte Pickrate bei durchschnittlichen Werten: ≈ 4 %
 
     Trummer_Max_DMI01.pdf
 
-    Screencast Data Mining.pptx
+    Screencast_Data_Mining.mp4
 
     Code and Data/
     │
